@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name":"4 ONNETTXTS",
+    "description": "4 TEXTS TO SMART & TNT",
+    "points": 70,
+    "sku": "REWARD NORMAL A",
+    "accesscode": "7670"
+  },
+  {
+    "id": 2,
+    "name":"5 ALLNETTXTS",
+    "description": "5 TEXTS TO ALL NETWORKS",
+    "points": 90,
+    "sku": "REWARD NORMAL B",
+    "accesscode": "7670"
+  },
+  {
+    "id": 3,
+    "name":"9 ONNETTXTS",
+    "description": "9 TEXTS TO SMART & TNT",
+    "points": 115,
+    "sku": "REWARD NORMAL C",
+    "accesscode": "7670"
+  }
+]

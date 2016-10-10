@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.Variants" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/header_variant</item>
+        <item name="colorPrimaryDark">@color/header_dark_variant</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.Points" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/header_points</item>
+        <item name="colorPrimaryDark">@color/header_dark_points</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.Transaction" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/header_transaction</item>
+        <item name="colorPrimaryDark">@color/header_dark_transaction</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.FAQ" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/header_faq</item>
+        <item name="colorPrimaryDark">@color/header_faq_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.Redeem" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/header_transaction</item>
+        <item name="colorPrimaryDark">@color/header_dark_transaction</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.Pasaload" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/header_pasaload</item>
+        <item name="colorPrimaryDark">@color/header_dark_pasaload</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.Rewards" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/header_normal_rewards</item>
+        <item name="colorPrimaryDark">@color/header_normal_rewards_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/header_pasaload</item>
+        <item name="colorPrimaryDark">@color/header_dark_pasaload</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+</resources>

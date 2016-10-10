@@ -1,0 +1,29 @@
+[
+  {
+    "id":1,
+    "name":"SMS ALL NET",
+    "sku":"SMS ALLNET",
+    "price":"5.00",
+    "details":"For P5.00 subscribers can loan 5 texts to any network valid for 24hrs. This variant is worth 4 points.",
+    "accesscode":"7572",
+    "isText":false
+  },
+  {
+    "id":2,
+    "name":"SMS ON NET",
+    "sku":"SMS ONNET",
+    "price":"4.00",
+    "details":"For P4.00 subscribers can loan 4 texts to SMART/TNT numbers valid for 24hrs. This variant is worth 3 points.",
+    "accesscode":"767",
+    "isText":false
+  },
+  {
+    "id":3,
+    "name":"BIGTEXT 7",
+    "sku":"SOS BIG7",
+    "price":"7.00",
+    "details":"For P7.00 subscribers can loan 9 texts to SMART/TNT numbers valid for 24hrs. This variant is worth 5 points.",
+    "accesscode":"7676",
+    "isText":true
+  }
+]

@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.okspinoy.app.smartloadservices.fragments.HomeActivityFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_main" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_faq"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/img_badge"
+                android:layout_width="241dp"
+                android:layout_height="195dp"
+                android:layout_gravity="center"
+                android:src="@drawable/img_badge" />
+
+            <Button
+                android:id="@+id/btn_variants"
+                android:layout_width="266dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/selector_variants" />
+
+            <Button
+                android:id="@+id/btn_points"
+                android:layout_width="266dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/selector_points" />
+
+            <Button
+                android:id="@+id/btn_transactions"
+                android:layout_width="266dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/selector_transactions" />
+
+            <Button
+                android:id="@+id/btn_pasaload"
+                android:layout_width="266dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/selector_pasaload" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/tv_faq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/selector_faq"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="FREQUENTLY ASKED QUESTIONS"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

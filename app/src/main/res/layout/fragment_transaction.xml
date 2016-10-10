@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.okspinoy.app.smartloadservices.fragments.TransactionActivityFragment">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_smart_dots"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.okspinoy.app.smartloadservices.swipelistview.SwipeMenuListView
+        android:id="@+id/history_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

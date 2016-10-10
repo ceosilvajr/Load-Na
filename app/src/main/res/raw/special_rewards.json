@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "BRONZE COIN",
+    "description": "CAN BE REDEEMED IF THE SUBSCRIBER HAS EARNED A MINIMUM OF 180 POINTS WITHIN 3 MONTHS: 180PTS",
+    "sku": "REDEEM BRONZE",
+    "accesscode": "7670"
+  },
+  {
+    "id": 2,
+    "name": "SILVER COIN",
+    "description": "CAN BE REDEEMED IF THE SUBSCRIBER HAS EARNED A MINIMUM OF 360 POINTS WITHIN 3 MONTHS: 360PTS",
+    "sku": "REDEEM SILVER",
+    "accesscode": "7670"
+  },
+  {
+    "id": 3,
+    "name": "GOLD COIN",
+    "description": "CAN BE REDEEMED IF THE SUBSCRIBER HAS EARNED A MINIMUM OF 540 POINTS WITHIN 3 MONTHS: 540PTS",
+    "sku": "REDEEM GOLD",
+    "accesscode": "7670"
+  },
+  {
+    "id": 4,
+    "name": "SMART ALL TEXT 10",
+    "description": "75 TXTS TO SMART & TNT. VALID FOR 24HRS: 1 GOLD COIN",
+    "sku": "REWARD GOLD D",
+    "accesscode": "7670"
+  },
+  {
+    "id": 5,
+    "name": "SMART ALL TEXT 15",
+    "description": "150 TXT TO ALL NETWORKS, 5 MIN WORTH OF CALLS TO SMART & TNT. VALID FOR 24HRS: 4 BRONZE COINS",
+    "sku": "REWARD BRONZE E",
+    "accesscode": "7670"
+  },
+  {
+    "id": 6,
+    "name": "SMART ALL TEXT 15",
+    "description": "150 TXT TO ALL NETWORKS, 5 MIN WORTH OF CALLS TO SMART & TNT. VALID FOR 24HRS: 2 SILVER COINS",
+    "sku": "REWARD SILVER E",
+    "accesscode": "7670"
+  },
+  {
+    "id": 7,
+    "name": "SMART ALL TEXT 20",
+    "description": "UNLI ALL-NET TXTS, 20 MIN CALLS TO SMART AND TNT: VALID FOR 24HRS: 2 GOLD COINS",
+    "sku": "REWARD GOLD F",
+    "accesscode": "7670"
+  }
+]

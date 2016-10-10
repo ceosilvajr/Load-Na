@@ -1,0 +1,227 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.okspinoy.app.smartloadservices.fragments.VariantsActivityFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_smart_dots" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choose a variant"
+                        android:textColor="@color/primary_text"
+                        android:textSize="28sp" />
+
+                    <RadioGroup
+                        android:id="@+id/radio_group_variants"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radio_allnet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:fontFamily="sans-serif-light"
+                            android:padding="5dp"
+                            android:text="@string/sms_allnet_rb"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/primary_text" />
+
+                        <RadioButton
+                            android:id="@+id/radio_onnet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:padding="5dp"
+                            android:text="@string/sms_onnet_rb"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/primary_text" />
+
+                        <RadioButton
+                            android:id="@+id/radio_bigtext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:padding="5dp"
+                            android:text="@string/sms_bigtext_rb"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/primary_text" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/sms_allnet"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/primary_text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/sms_allnet_description"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/secondary_text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/sms_allnet_price"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/primary_text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/sms_allnet_points"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/primary_text" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/sms_onnet"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/primary_text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/sms_onnet_description"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/secondary_text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/sms_onnet_price"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/primary_text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/sms_onnet_points"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/primary_text" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/big_text7"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/primary_text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/big_text7_description"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/secondary_text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/big_text7_price"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/primary_text" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-medium"
+                            android:text="@string/big_text7_points"
+                            android:textAppearance="?android:textAppearanceSmall"
+                            android:textColor="@color/primary_text" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="266dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/selector_submit"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

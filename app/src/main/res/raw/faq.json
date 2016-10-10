@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "isEnglish": true,
+    "question": "What's this all about?",
+    "answer": "This service let's you advance load and pay later as well as earn points which can be redeemed for nice prizes!"
+  },
+  {
+    "id": 2,
+    "isEnglish": true,
+    "question": "What is the difference between normal and special points?",
+    "answer": "The points you earn start of as special points. If you don't redeem a coin with your special points in 3 mos they turn into normal points."
+  },
+  {
+    "id": 3,
+    "isEnglish": true,
+    "question": "What are the Coins for?",
+    "answer": "The coins allow users to purchase BIG rewards in the special rewards page. Also, once the user purchases a coin, the badge shown will change to the color of the highest coin purchased."
+  },
+  {
+    "id": 4,
+    "isEnglish": true,
+    "question": "Do the points expire?",
+    "answer": "The normal points you earn don't expire. The special points expire after 3 mos."
+  },
+  {
+    "id": 5,
+    "isEnglish": true,
+    "question": "Do the Coins expire?",
+    "answer": "The coins don't expire but can only be purchased if you earn enough special points."
+  },
+  {
+    "id": 6,
+    "isEnglish": true,
+    "question": "Profile Reset",
+    "answer": "Although the points and coins don't expire, users that don't use the service for 120 days straight will have their profile reset including all un redeemed points and coins."
+  },
+  {
+    "id": 7,
+    "isEnglish": true,
+    "question": "Who can use the service?",
+    "answer": "This service is available only to SMART Prepaid and Talk'N'Text subscribers."
+  },
+  {
+    "id": 8,
+    "isEnglish": true,
+    "question": "The refresh point button says that I will be charged?",
+    "answer": "As you use the service, the system will recognize your usage and will automatically send you an update for free. The charge was implemented to prevent users from abusing the feature."
+  },
+  {
+    "id": 9,
+    "isEnglish": true,
+    "question": "I am not getting the free update.",
+    "answer": "Please allow at least 24 hours for the system to recognize your usage as there may be network delays."
+  },
+  {
+    "id": 10,
+    "isEnglish": true,
+    "question": "For dual sim phone users.",
+    "answer": "Please ensure to select a SMART or TNT sim when using the service. To do this, go to your phone's sim settings and pick the SMART or TNT sim for voice calls and texts."
+  },
+  {
+    "id": 11,
+    "isEnglish": false,
+    "question": "Anong magagawa dito?",
+    "answer": "Sa service na'to makakakuha ka ng load kaagad na pwedeng bayaran sa susunod mong reload. Makakuha ka rin ng points na pwedeng ipalit sa mga maganda premyo!"
+  },
+  {
+    "id": 12,
+    "isEnglish": false,
+    "question": "Anong kaibahan ng normal at special points?",
+    "answer": "Kapag ginamit mo ang service, makakakuha ka ng special points. Kapag hindi mo naipagpalit ang special points para sa coin sa loob ng 3 mos magiging normal points ito."
+  },
+  {
+    "id": 13,
+    "isEnglish": false,
+    "question": "Para saan ang Coins?",
+    "answer": "Ang coins ay pwede ipagpalit sa mga premyo na mas malalaki at mas sulit! Makikita ito sa special rewards page. Kapag nakakuha ka ng coin, ang badge sa main menu ay papalit sa kulay ng pinakamahalagang coin na nakuha mo."
+  },
+  {
+    "id": 14,
+    "isEnglish": false,
+    "question": "Nag eexpire ba ang points?",
+    "answer": "Hindi nag eexpire ang normal points. Ang special points ay nag eexpire after 3 mos kapag hindi ito ipinagpalit sa coin."
+  },
+  {
+    "id": 15,
+    "isEnglish": false,
+    "question": "Nag eexpire ba ang coins?",
+    "answer": "Hindi nag eexpire ang coins. Makakuha ka lang ng coin kapag may sapat na special points ka."
+  },
+  {
+    "id": 16,
+    "isEnglish": false,
+    "question": "Profile Reset",
+    "answer": " Kahit na hindi nageexpire ang points at coins, kapag hindi ginamit ang service ng 120 days na sunod sunod, marereset ang inyong profile at lahat ng coins at points ay mawawala."
+  },
+  {
+    "id": 17,
+    "isEnglish": false,
+    "question": "Sinong pwede gumamit ng service?",
+    "answer": "Ang service na ito ay bukas sa lahat ng SMART Prepaid at Talk'N'Text subscribers."
+  },
+  {
+    "id": 18,
+    "isEnglish": false,
+    "question": "May bayad daw ang pag refresh ng points?",
+    "answer": "Habang ginagamit mo ang service, makikita ng system ang inyong status at magpapadala ito ng libreng update ng points at coins. Nilagay ang bayad para hindi ma abuso ang feature na ito."
+  },
+  {
+    "id": 19,
+    "isEnglish": false,
+    "question": "Wala akong nakukuhang free update.",
+    "answer": "Maaaring bigyan ng at least 24 hours ang system para maibigay ang free update dahil posibleng magkaroon ng network delay."
+  },
+  {
+    "id": 20,
+    "isEnglish": false,
+    "question": "Para sa dual sim phone users.",
+    "answer": "Kapag ginagamit ang service, maaaring piliin sa iyong sim settings ang SMART o TNT na sim para sa voice calls at texts. Ito'y para masigurado ang magandang pag daloy ng service."
+  }
+]

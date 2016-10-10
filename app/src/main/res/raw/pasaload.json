@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "sku": 2,
+    "description": "Php 2.00 Airtime",
+    "srp": 2,
+    "validity": 3,
+    "keyword": "2",
+    "accesscode": "808"
+  },
+  {
+    "id": 2,
+    "sku": 5,
+    "description": "Php 5.00 Airtime",
+    "srp": 5,
+    "validity": 3,
+    "keyword": "5",
+    "accesscode": "808"
+  },
+  {
+    "id": 3,
+    "sku": 10,
+    "description": "Php 10.00 Airtime",
+    "srp": 10,
+    "validity": 3,
+    "keyword": "10",
+    "accesscode": "808"
+  },
+  {
+    "id": 4,
+    "sku": 15,
+    "description": "Php 15.00 Airtime",
+    "srp": 15,
+    "validity": 15,
+    "keyword": "15",
+    "accesscode": "808"
+  },
+  {
+    "id": 5,
+    "sku": 20,
+    "description": "Php 20.00 Airtime",
+    "srp": 20,
+    "validity": 15,
+    "keyword": "20",
+    "accesscode": "808"
+  },
+  {
+    "id": 6,
+    "sku": 30,
+    "description": "Php 30.00 Airtime",
+    "srp": 30,
+    "validity": 15,
+    "keyword": "30",
+    "accesscode": "808"
+  },
+  {
+    "id": 7,
+    "sku": 35,
+    "description": "100 all network SMS & P1 airtime",
+    "srp": 35,
+    "validity": 1,
+    "keyword": "35",
+    "accesscode": "808"
+  },
+  {
+    "id": 8,
+    "sku": 60,
+    "description": "Php 60.00 Airtime",
+    "srp": 60,
+    "validity": 30,
+    "keyword": "60",
+    "accesscode": "808"
+  },
+  {
+    "id": 9,
+    "sku": 100,
+    "description": "Php 100.00 Airtime",
+    "srp": 100,
+    "validity": 30,
+    "keyword": "100",
+    "accesscode": "808"
+  },
+  {
+    "id": 10,
+    "sku": 200,
+    "description": "Php 200.00 Airtime",
+    "srp": 200,
+    "validity": 60,
+    "keyword": "200",
+    "accesscode": "808"
+  }
+]
+  

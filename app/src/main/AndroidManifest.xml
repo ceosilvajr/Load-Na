@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.okspinoy.app.smartloadservices">
+
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+  <uses-feature android:name="android.hardware.telephony"/>
+
+  <uses-permission android:name="android.permission.READ_SMS"/>
+  <uses-permission android:name="android.permission.WRITE_SMS"/>
+  <uses-permission android:name="android.permission.SEND_SMS"/>
+  <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+
+  <application
+      android:name=".SLSApplication"
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name">
+    <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity
+        android:name=".VariantsActivity"
+        android:label="@string/title_activity_variants"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.Variants"/>
+    <activity
+        android:name=".TransactionActivity"
+        android:label="@string/title_activity_transaction"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.Transaction"/>
+    <activity
+        android:name=".PointsActivity"
+        android:label="@string/title_activity_points"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.Points"/>
+    <activity
+        android:name=".PasaloadActivity"
+        android:label="@string/title_activity_pasaload"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.Pasaload"/>
+    <activity
+        android:name=".RedeemActivity"
+        android:label="@string/title_activity_redeem"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.Redeem"/>
+    <activity
+        android:name=".RewardsActivity"
+        android:label="@string/title_activity_rewards"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.Rewards"/>
+    <activity
+        android:name=".HomeActivity"
+        android:label="@string/title_activity_home"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.NoActionBar"/>
+    <activity
+        android:name=".NewMessageActivity"
+        android:label="@string/title_activity_new_message"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.Transparent"/>
+    <activity
+        android:name=".PasaloadConfirmationMessageActivity"
+        android:label="@string/title_activity_pasaload_confirmation_message"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.Transparent"/>
+    <activity
+        android:name=".PasaloadMessageActivity"
+        android:label="@string/title_activity_pasaload_message"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.Transparent"/>
+    <activity
+        android:name=".FAQActivity"
+        android:label="@string/title_activity_faq"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.FAQ"/>
+
+    <receiver
+        android:name=".receivers.SMSReceiver"
+        android:enabled="true"
+        android:exported="true"
+        android:permission="android.permission.BROADCAST_SMS">
+      <intent-filter android:priority="2147483647">
+        <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+      </intent-filter>
+    </receiver>
+
+
+  </application>
+
+</manifest>

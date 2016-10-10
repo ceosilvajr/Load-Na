@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#000000</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="smart_color_green">#ccdd03</color>
+    <color name="smart_color_red">#e1004c</color>
+    <color name="smart_color_blue">#009edf</color>
+
+    <color name="smart_color_bg">#f3f3f3</color>
+    <color name="header_variant">#eb4578</color>
+    <color name="header_dark_variant">#dc4170</color>
+    <color name="header_transaction">#c8da00</color>
+    <color name="header_dark_transaction">#bacb01</color>
+    <color name="header_pasaload">#6fc7e7</color>
+    <color name="header_dark_pasaload">#67bad8</color>
+    <color name="header_points">#df0044</color>
+    <color name="header_dark_points">#cf003f</color>
+    <color name="header_normal_rewards">#820ba4</color>
+    <color name="header_normal_rewards_dark">#750a94</color>
+    <color name="header_faq">#bbbbbb</color>
+    <color name="header_faq_dark">#b0b0b0</color>
+
+    <color name="black">#000000</color>
+
+</resources>
